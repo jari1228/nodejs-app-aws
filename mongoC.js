@@ -1,5 +1,5 @@
 import { MongoClient } from "mongodb";
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
 
 let MONGO_PASSWORD = "IdBwuBAyfe8gD14A";
 
