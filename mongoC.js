@@ -1,6 +1,7 @@
 import { MongoClient } from "mongodb";
+import dotenv from "dotenv";
 
-const password = encodeURIComponent(process.env.MONGO_PASSWORD.trim());
+const password = encodeURIComponent(secrets.MONGO_PASSWORD.trim());
 const connectionString = `mongodb+srv://jarishing:${password}@learning.x5xukp1.mongodb.net/?retryWrites=true&w=majority&appName=learning`; // clustore url
 const client = new MongoClient(connectionString);
 let conn;
